@@ -1,14 +1,14 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
-import 'package:exp05/main.dart';
-import 'package:exp05/screens/screens/forgotpass.dart';
-import 'package:exp05/screens/screens/signup.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:invsync/screens/forgotpass.dart';
+import 'package:invsync/screens/profile.dart';
+import 'package:invsync/screens/screens/signup.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:http/http.dart' as http;
 

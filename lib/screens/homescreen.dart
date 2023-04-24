@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:invsync/screens/homepage.dart';
-import 'package:invsync/screens/inventory.dart';
 import 'package:invsync/screens/profile.dart';
 
 class DrawerItem {
@@ -31,8 +30,6 @@ class HomeScreenState extends State<HomeScreen> {
     switch (pos) {
       case 0:
         return HomePage();
-      case 1:
-        return const InventoryScreen();
       case 2:
         return const MyProfilePage();
 
